@@ -51,7 +51,7 @@
     <!-- Build types, now with translations -->
     <string name="bootleg_type_official">公式 Kōshiki.</string>
     <string name="bootleg_type_unofficial">非公式 Hikōshiki</string>
-    <string name="bootleg_type_unknown">ごめんなさい Gomen'nasai.</string>
+    <string name="bootleg_type_unknown">ごめんなさい Gōmen`nasai</string>
     <string name="bootleggers_releasetype_skeleton">%s (%s)</string>
 
     <!-- Notch behavior -->
@@ -103,10 +103,10 @@
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 
     <!-- SELinux -->
-    <string name="selinux_status">Selinux ステータス</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">ステータス `SELinux</string>
+    <string name="selinux_status_disabled">無効 `Disabled</string>
+    <string name="selinux_status_permissive">寛容 `Permissive</string>
+    <string name="selinux_status_enforcing">強制する `Enforcing</string>
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>

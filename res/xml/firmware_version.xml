@@ -19,7 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="firmware_version_screen"
-    android:title="バージョン Android"
+    android:title="Bootleggers Home"
     settings:keywords="@string/keywords_android_version">
 
     <!-- Bootleggers About logo -->
@@ -32,14 +32,14 @@
     <Preference
         android:key="btlg_about_info"
         android:order="1"
-        android:title="私について About"
+        android:title="私について `About"
 	    android:summary="Our projects information"
         android:fragment="com.bootleggers.dumpster.fragments.AboutBootleggers" />
 
     <!-- ROM Version -->
     <Preference
         android:key="modversion"
-        android:title="バージョン Bootleggers Rom"
+        android:title="バージョン `Bootleggers Rom"
         android:summary="@string/device_info_default"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.ROMVersionPreferenceController"/>
@@ -68,7 +68,7 @@
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
-        android:title="バージョン Android"
+        android:title="バージョン `Android"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
@@ -76,7 +76,7 @@
     <!-- Security patch -->
     <Preference
         android:key="security_key"
-        android:title="Android `セキュリティパッチレベル"
+        android:title="セキュリティパッチレベル `Android"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
@@ -91,14 +91,14 @@
     <!-- Our silly musical codename-->
     <Preference
         android:key="music_codename"
-        android:title="音楽コードネーム Codename"
+        android:title="音楽コードネーム `Codename"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.ROMusicCodenamePreferenceController"/>
 
     <!-- Baseband -->
     <Preference
         android:key="base_band"
-        android:title="ベースバンド Baseband"
+        android:title="ベースバンド `Baseband"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
@@ -106,7 +106,7 @@
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
-        android:title="カーネル Kernel"
+        android:title="カーネル `Kernel"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
@@ -114,7 +114,7 @@
     <!-- Build -->
     <Preference
         android:key="os_build_number"
-        android:title="ビルド番号 Bangō"
+        android:title="ビルド番号 `Build"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
